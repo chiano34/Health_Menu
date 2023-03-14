@@ -1,0 +1,684 @@
+/*Блок 1*/
+
+@media (max-width: 991px) {
+  aside {
+    align-self: center;
+    margin-top: -100px;
+  }
+
+  #img1 {
+    width: 320px;
+    height: 375px;
+    margin-top: -260px;
+  }
+
+  #rectangle1 {
+    width: 331px;
+    height: 370px;
+    margin-right: auto;
+    margin-left: 0;
+  }
+  footer{
+    margin-top:220px;
+  }
+#t3{
+  font-size:190px;
+}
+}
+
+@media (max-width: 767px){
+  #img1 {
+    width: 450px;
+    height: 364px;
+    margin-top: -300px;
+    margin-right:30px;
+  }
+  #rectangle1{
+    width: 450px;
+    height: 364px;
+    margin-top: -200px;
+    margin-left: 49px;
+
+  }
+  main{flex-direction:column;}
+  section
+  {
+    margin-top:250px;
+    align-self: center;
+    order:-1;
+    max-width:75%;
+
+  }
+  aside{
+    align-self:center;
+    margin-top:40px;
+    margin-left:12%;
+    max-width:80%;
+  }
+  footer{
+    align-self: center;
+    margin-top:150px;
+    order:1;
+  }
+  #t3
+  {
+    font-size:100px;
+  }
+}
+
+@media (max-width: 575px) {
+  section
+  {
+    margin-top:230px;
+    align-self: center;
+    order:-1;
+    max-width:75%;
+
+  }
+  #img1 {
+    width: 330px;
+    height: 365px;
+
+  }
+
+  #rectangle1 {
+    width: 360px;
+    height: 365px;
+    margin-left:26px;
+    top:30px;
+  }
+  footer{
+    margin-top:30px;
+  }
+ #t3
+ {
+   font-size:100px;
+   margin:auto 0 auto 30px;
+ }
+}
+/*Блок 2*/
+@media (min-width:845px) and (max-width:1097px)
+{
+  #t5
+  {
+    position:relative;
+    left:15%;
+  }
+  #t6
+  {
+    position:relative;
+    top:17%;
+  }
+  main2
+  {
+    display:flex;
+    flex-wrap:wrap;
+  }
+  aside2
+  {
+    position:relative;
+    left:100px;
+    max-height:200px;
+    flex: 0 0 100%;
+    max-width: 75%;
+  }
+  section2
+  {
+    flex:2;
+    align-self:flex-start;
+    position:relative;
+    bottom:50px;
+    width:50%;
+  }
+  aside3
+  {
+    align-self:flex-end;
+    flex:1;
+    right:15%;
+    bottom:-56px;
+    position: relative;
+    max-width:300px;
+  }
+  footer2
+  {
+    top:150px;
+    position: relative;
+    align-self:center;
+    font-size:65%;
+  }
+}
+
+@media screen and (max-width:844px)
+{
+  main2
+  {
+    flex-direction:column;
+    align-items:center;
+
+  }
+  aside2
+  {
+    position: relative;
+    max-width:300px;
+    max-height:200px;
+    left:15%;
+  }
+  section2
+  {
+    top:20px;
+    align-items: center;
+    position:relative;
+    max-width:300px;
+    max-height:300px;
+  }
+  aside3
+  {
+    align-items: center;
+    max-width:300px;
+  }
+  footer2
+  {
+    align-items: center;
+    position: relative;
+    font-size:65%;
+    bottom:-120px;
+  }
+  #square3
+  {
+    width:120px;
+    height:120px;
+    bottom:55px;
+  }
+  #t5
+  {
+    top:0;
+    left:0;
+  }
+  #t6
+  {
+    top:50px;
+    bottom:0;
+  }
+}
+/*Блок 3*/
+@media (max-width: 991px)
+{
+  aside4
+  {
+    align-self:center;
+  }
+  #img2
+  {
+    width: 320px;
+    height: 375px;
+  }
+  #rectangle2
+  {
+    width: 331px;
+    height: 370px;
+    margin-right: auto;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 767px){
+  .flex-container3{
+    background-size:2300px;
+  }
+  #img2 {
+    width: 409px;
+    height: 332px;
+    margin-right: auto;
+    margin-left: 0;
+  }
+  #rectangle2{
+    width: 409px;
+    height: 332px;
+    margin-right: 10%;
+    margin-left: 0;
+
+  }
+  main3
+  {
+    flex-direction:column;
+  }
+  section3
+  {
+    margin-top:30px;
+    align-self: center;
+    max-width:75%;
+    margin-bottom:40px;
+  }
+  aside4{
+    align-self:center;
+    max-width:80%;
+  }
+  footer3{
+    align-self: center;
+    font-size:45%;
+    order:1;
+  }
+  #t9
+  {
+    font-size:160px;
+    margin:auto auto auto auto;
+  }
+}
+@media (max-width: 575px) {
+  .flex-container3{
+    background-size:1600px;
+  }
+  #img2
+  {
+    width: 302px;
+    height: 326px;
+  }
+  #rectangle2
+  {
+    width: 340px;
+    height: 340px;
+    left:8px;
+  }
+  #t9
+  {
+    font-size:100px;
+  }
+}
+/*Блок 4*/
+@media (min-width:845px) and (max-width:1097px)
+{
+  #t11
+  {
+    position:relative;
+    left:15%;
+  }
+  #t12
+  {
+    position:relative;
+    top:17%;
+  }
+  mainy1
+  {
+    display:flex;
+    flex-wrap:wrap;
+  }
+  asidey1
+  {
+    position:relative;
+    left:100px;
+    max-height:200px;
+    flex: 0 0 100%;
+    max-width: 75%;
+  }
+  sectiony1
+  {
+    flex:2;
+    align-self:flex-start;
+    position:relative;
+    bottom:50px;
+    width:50%;
+  }
+  asidey2
+  {
+    align-self:flex-end;
+    flex:1;
+    right:15%;
+    bottom:-56px;
+    position: relative;
+    max-width:300px;
+  }
+  footery1
+  {
+    top:150px;
+    position: relative;
+    align-self:center;
+    font-size:65%;
+  }
+}
+
+@media screen and (max-width:844px)
+{
+  mainy1
+  {
+    flex-direction:column;
+    align-items:center;
+
+  }
+  asidey1
+  {
+    position: relative;
+    max-width:300px;
+    max-height:200px;
+    left:15%;
+  }
+  sectiony1
+  {
+    top:20px;
+    align-items: center;
+    position:relative;
+    max-width:300px;
+    max-height:300px;
+  }
+  asidey2
+  {
+    align-items: center;
+    max-width:300px;
+  }
+  footery1
+  {
+    align-items: center;
+    position: relative;
+    font-size:65%;
+    bottom:-120px;
+  }
+  #square6
+  {
+    width:120px;
+    height:120px;
+    bottom:55px;
+  }
+  #t11
+  {
+    top:0;
+    left:0;
+  }
+  #t12
+  {
+    top:50px;
+    bottom:0;
+  }
+}
+/*Блок 5*/
+@media (max-width: 991px)
+{
+  asideyog
+  {
+    align-self:center;
+  }
+  #img3
+  {
+    width: 320px;
+    height: 375px;
+  }
+  #rectangle3
+  {
+    width: 331px;
+    height: 370px;
+    margin-right: auto;
+    margin-left: 0;
+  }
+  footeryog{
+  margin-top:30px;
+  }
+  #ty3
+  {
+    font-size:200px;
+  }
+}
+
+@media (max-width: 767px){
+  .flex-container5{
+    background-size:2300px;
+  }
+  #img3 {
+    width: 409px;
+    height: 332px;
+    margin-right: auto;
+    margin-left: 0;
+  }
+  #rectangle3{
+    width: 409px;
+    height: 332px;
+    margin-right: 10%;
+    margin-left: 0;
+
+  }
+  mainyog
+  {
+    flex-direction:column;
+  }
+  sectionyog
+  {
+    margin-top:30px;
+    align-self: center;
+    max-width:75%;
+    margin-bottom:40px;
+  }
+  asideyog
+  {
+    align-self:center;
+    max-width:80%;
+  }
+  footeryog{
+    align-self: center;
+    font-size:45%;
+    order:1;
+  }
+  #ty3
+  {
+    font-size:160px;
+    margin:auto auto auto auto;
+  }
+}
+@media (max-width: 575px) {
+  .flex-container5
+  {
+    background-size:1600px;
+  }
+  #img3
+  {
+    width: 302px;
+    height: 326px;
+  }
+  #rectangle3
+  {
+    width: 340px;
+    height: 340px;
+    left:8px;
+  }
+  #ty3
+  {
+    font-size:100px;
+  }
+}
+/*Блок 6*/
+@media (min-width:845px) and (max-width:1097px)
+{
+  #tf2
+  {
+    position:relative;
+    left:15%;
+  }
+  #tf3
+  {
+    position:relative;
+    top:17%;
+  }
+  mainf
+  {
+    display:flex;
+    flex-wrap:wrap;
+  }
+  asidef1
+  {
+    position:relative;
+    left:100px;
+    max-height:200px;
+    flex: 0 0 100%;
+    max-width: 75%;
+  }
+  sectionf
+  {
+    flex:2;
+    align-self:flex-start;
+    position:relative;
+    bottom:50px;
+    width:50%;
+  }
+  asidef
+  {
+    align-self:flex-end;
+    flex:1;
+    right:15%;
+    bottom:-56px;
+    position: relative;
+    max-width:300px;
+  }
+  footerf
+  {
+    top:150px;
+    position: relative;
+    align-self:center;
+    font-size:50%;
+  }
+
+}
+
+@media screen and (max-width:844px)
+{
+  mainf
+  {
+    flex-direction:column;
+    align-items:center;
+
+  }
+  asidef1
+  {
+    position: relative;
+    max-width:300px;
+    max-height:200px;
+    left:15%;
+  }
+  sectionf
+  {
+    top:20px;
+    align-items: center;
+    position:relative;
+    max-width:300px;
+    max-height:300px;
+  }
+  asidef
+  {
+    align-items: center;
+    max-width:300px;
+  }
+  footerf
+  {
+    align-items: center;
+    position: relative;
+    font-size:65%;
+    bottom:-120px;
+  }
+  #square9
+  {
+    width:120px;
+    height:120px;
+    bottom:55px;
+  }
+  #tf2
+  {
+    top:0;
+    left:0;
+  }
+  #tf3
+  {
+    top:50px;
+    bottom:0;
+  }
+}
+/*Блок7*/
+@media (max-width: 991px) {
+  asidel {
+    align-self: center;
+
+  }
+  #img4 {
+    width: 320px;
+    height: 375px;
+    margin-top: -260px;
+  }
+
+  #rectanglel1 {
+    width: 331px;
+    height: 370px;
+    margin-right: auto;
+    margin-left: 0;
+  }
+  footerl{
+    margin-top:220px;
+  }
+  #tl3{
+    font-size:190px;
+  }
+}
+
+@media (max-width: 767px){
+  #img4 {
+    width: 450px;
+    height: 364px;
+    margin-top: -300px;
+    margin-right:30px;
+  }
+  #rectanglel1{
+    width: 450px;
+    height: 364px;
+    margin-top: -200px;
+    margin-left: 49px;
+
+  }
+  mainl{flex-direction:column;}
+  sectionl
+  {
+    margin-top:250px;
+    align-self: center;
+    order:-1;
+    max-width:75%;
+
+  }
+  asidel{
+    align-self:center;
+    margin-top:40px;
+    margin-left:12%;
+    max-width:80%;
+  }
+  footerl{
+    align-self: center;
+    margin-top:150px;
+    order:1;
+  }
+  #tl3
+  {
+    font-size:100px;
+  }
+}
+
+@media (max-width: 575px) {
+  sectionl
+  {
+    margin-top:230px;
+    align-self: center;
+    order:-1;
+    max-width:75%;
+
+  }
+  #img4 {
+    width: 330px;
+    height: 365px;
+
+  }
+
+  #rectanglel1 {
+    width: 360px;
+    height: 365px;
+    margin-left:26px;
+    top:30px;
+  }
+  footerl{
+    margin-top:30px;
+  }
+  #tl3
+  {
+    font-size:100px;
+    margin:auto 0 auto 30px;
+  }
+}
